@@ -1,0 +1,7361 @@
+[
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319131"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 1,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0207",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 4.25,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 206.98,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 4.25,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/010207/01.0207.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/010207/01.0207.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/010207/01.0207.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/010207/01.0207.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.490",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319148"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 2,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0221",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 3.81,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 185.55,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 3.81,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/010221/01.0221.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/010221/01.0221.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/010221/01.0221.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/010221/01.0221.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.505",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319155"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 3,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0222",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 4.25,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 206.98,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 4.25,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.505",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000314235"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 4,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0227",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 2.01,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 97.89,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 2.01,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.532",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000314242"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 5,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0235",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.65,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 275.16,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.65,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/10/010235/01-0235.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/10/010235/01-0235.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/10/010235/01-0235.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/10/010235/01-0235.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.458",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000314259"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 6,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0236",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 4.5,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 219.15,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 4.5,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/10/010236/01-0236.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/10/010236/01-0236.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/10/010236/01-0236.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/10/010236/01-0236.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.443",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000313214"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 7,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0304",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 2.75,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 133.93,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 2.75,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.095",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000313221"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 8,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0309",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 2.58,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 125.65,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 2.58,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.084",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000313238"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 9,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0312",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 2.59,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 126.13,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 2.59,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.119",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000322230"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 10,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0316",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 2.54,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 123.7,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 2.54,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.119",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000313245"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 11,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0318",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 2.71,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 131.98,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 2.71,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.156",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000313252"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 12,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0319",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 2.71,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 131.98,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 2.71,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.074",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000322247"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 13,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0320",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 2.79,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 135.87,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 2.79,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.101",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000313269"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 14,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0321",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 2.37,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 115.42,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 2.37,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.141",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000313276"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 15,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0324",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 3.88,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 188.96,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 3.88,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.080",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000313283"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 16,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0325",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 2.86,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 139.28,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 2.86,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.146",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "1.200",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000313290"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 17,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0328",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 4.29,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 208.92,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 4.29,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.164",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000312279"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 18,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0329",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 4.12,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 200.64,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 4.12,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.164",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "3.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000312286"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 19,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "01.0330",
+    "title": "Трос акселератора",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 4.94,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 240.58,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 4.94,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.123",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000316734"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 20,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0105",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 6.1,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 297.07,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 6.1,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос сцепления"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.332",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "3.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319162"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 21,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0110",
+    "title": "Трос зчеплення",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 10.49,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 510.86,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 10.49,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/030110/03.0110.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/030110/03.0110.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/030110/03.0110.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/030110/03.0110.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос сцепления"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.301",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "3.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319179"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 22,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0111",
+    "title": "Трос зчеплення",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 8.33,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 405.67,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 8.33,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 48,
+          "name": "Kиїв Правий",
+          "originalName": "Київ Правий"
+        },
+        "remain": "2"
+      },
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "3"
+      },
+      {
+        "storage": {
+          "id": 5,
+          "name": "Одеса",
+          "originalName": "Одесса"
+        },
+        "remain": "1"
+      },
+      {
+        "storage": {
+          "id": 1,
+          "name": "Харків",
+          "originalName": "Харьков"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030111/030111-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030111/030111-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030111/030111-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030111/030111-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос сцепления"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.390",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "2.250",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "59.300",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "32.700",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "5.800",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319186"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 23,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0115",
+    "title": "Трос зчеплення",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 8.97,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 436.84,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 8.97,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 48,
+          "name": "Kиїв Правий",
+          "originalName": "Київ Правий"
+        },
+        "remain": "1"
+      },
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030115/030115-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030115/030115-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030115/030115-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030115/030115-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос сцепления"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.280",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "0.260",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "71.400",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "3.800",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "4.800",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319193"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 24,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0118",
+    "title": "Трос зчеплення",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 8.34,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 406.16,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 8.34,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос сцепления"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.354",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "3.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000317410"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 25,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0119",
+    "title": "Трос зчеплення",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 10.67,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 519.63,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 10.67,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 48,
+          "name": "Kиїв Правий",
+          "originalName": "Київ Правий"
+        },
+        "remain": "1"
+      },
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "2"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030119/030119-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030119/030119-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030119/030119-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030119/030119-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос сцепления"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.354",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "3.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000316741"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 26,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0120",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 7.71,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 375.48,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 7.71,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/030120/03.0120.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/030120/03.0120.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/030120/03.0120.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/030120/03.0120.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос сцепления"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.363",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000314266"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 27,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0205",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.36,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 261.03,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.36,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/030205/03.0205.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/030205/03.0205.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/030205/03.0205.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/030205/03.0205.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.380",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "3.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000314273"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 28,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0209",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.32,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 259.08,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.32,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/030209/03.0209.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/030209/03.0209.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/030209/03.0209.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/030209/03.0209.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.775",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000314280"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 29,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0211",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.18,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 252.27,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.18,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030211/030211-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030211/030211-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030211/030211-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030211/030211-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.370",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "1.530",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "54.200",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "35.300",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "4.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000314297"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 30,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0212",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 243.5,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030212/030212-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030212/030212-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030212/030212-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030212/030212-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.360",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "1.120",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "59.400",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "32.400",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "2.900",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319209"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 31,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0213",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.22,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 254.21,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.22,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "2"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/030213/03.0213.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/030213/03.0213.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/030213/03.0213.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/030213/03.0213.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.230",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "0.560",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "44.900",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "26.900",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "2.300",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319216"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 32,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0214",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.27,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 256.65,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.27,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "2"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030214/030214-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030214/030214-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030214/030214-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030214/030214-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.230",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "0.870",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "45.100",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "30.300",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "3.200",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319223"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 33,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0219",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 6,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 292.2,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 6,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030219/030219-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030219/030219-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030219/030219-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030219/030219-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.440",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "0.990",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "59.500",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "34.700",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "2.400",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319230"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 34,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0220",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.83,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 283.92,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.83,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 1,
+          "name": "Харків",
+          "originalName": "Харьков"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030220/030220-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030220/030220-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030220/030220-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030220/030220-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.440",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "0.970",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "58.300",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "34.700",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "2.400",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000318080"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 35,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0221",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.12,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 249.34,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.12,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/030221/03.0221.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/030221/03.0221.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/030221/03.0221.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/030221/03.0221.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.349",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000001101445"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 36,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0224",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 6.92,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 337,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 6.92,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.592",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319247"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 37,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0226",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 4.62,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 224.99,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 4.62,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/030226/03.0226.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/030226/03.0226.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/030226/03.0226.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/030226/03.0226.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.248",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "1.035",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319254"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 38,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0227",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 6.18,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 300.97,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 6.18,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/030227/03.0227.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/030227/03.0227.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/030227/03.0227.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/030227/03.0227.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.240",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000314303"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 39,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0228",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 1.73,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 84.25,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 1.73,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.310",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319261"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 40,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0229",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.85,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 284.9,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.85,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030229/030229-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030229/030229-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030229/030229-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030229/030229-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.470",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "1.150",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "70.200",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "34.100",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "2.400",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319278"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 41,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0230",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 6.02,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 293.17,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 6.02,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030230/030230-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030230/030230-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030230/030230-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030230/030230-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.480",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "1.020",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "49.600",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "32.000",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "3.200",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319285"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 42,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0231",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 7.65,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 372.56,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 7.65,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/030231/03.0231.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/030231/03.0231.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/030231/03.0231.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/030231/03.0231.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.389",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319292"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 43,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0232",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 7.88,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 383.76,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 7.88,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "4"
+      },
+      {
+        "storage": {
+          "id": 37,
+          "name": "Львів",
+          "originalName": "Львов"
+        },
+        "remain": "1"
+      },
+      {
+        "storage": {
+          "id": 1,
+          "name": "Харків",
+          "originalName": "Харьков"
+        },
+        "remain": "3"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030232/030232-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030232/030232-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030232/030232-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030232/030232-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.420",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "0.940",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "56.700",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "29.600",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "2.800",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319308"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 44,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0233",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 7.79,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 379.37,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 7.79,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/030233/03.0233.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/030233/03.0233.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/030233/03.0233.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/030233/03.0233.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.600",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319315"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 45,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0234",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 6.73,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 327.75,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 6.73,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "7"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/030234/03.0234.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/030234/03.0234.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/030234/03.0234.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/030234/03.0234.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.660",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "1.270",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "49.000",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "33.200",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "3.900",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319322"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 46,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0235",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 8.7,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 423.69,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 8.7,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 37,
+          "name": "Львів",
+          "originalName": "Львов"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030235/030235-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030235/030235-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030235/030235-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030235/030235-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.576",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "3.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319339"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 47,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0238",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 11.29,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 549.82,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 11.29,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/030238/03.0238.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/030238/03.0238.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/030238/03.0238.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/030238/03.0238.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.736",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319346"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 48,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0239",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 9.77,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 475.8,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 9.77,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 6,
+          "name": "Миколаїв",
+          "originalName": "Николаев"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030239/030239-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030239/030239-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030239/030239-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030239/030239-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.450",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "1.860",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "59.700",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "33.900",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "4.600",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000001057865"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 49,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0240",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 8.04,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 391.55,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 8.04,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 48,
+          "name": "Kиїв Правий",
+          "originalName": "Київ Правий"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030240/030240-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030240/030240-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030240/030240-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030240/030240-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.660",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "1.490",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "51.400",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "31.600",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "4.600",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000001057872"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 50,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0241",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 8.75,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 426.13,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 8.75,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 48,
+          "name": "Kиїв Правий",
+          "originalName": "Київ Правий"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030241/030241-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030241/030241-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030241/030241-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030241/030241-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.700",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "2.110",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "57.400",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "34.100",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "5.400",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000316550"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 51,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0243",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 16.44,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 800.63,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 16.44,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/030243/03.0243.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/030243/03.0243.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/030243/03.0243.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/030243/03.0243.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "1.061",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2025652136400"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 52,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0248",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 9.25,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 450.48,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 9.25,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 48,
+          "name": "Kиїв Правий",
+          "originalName": "Київ Правий"
+        },
+        "remain": "1"
+      },
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "2"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030248/030248-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030248/030248-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030248/030248-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030248/030248-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.670",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "2.270",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "55.700",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "34.000",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "6.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000002241447"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 53,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0249",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 8.13,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 395.93,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 8.13,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 48,
+          "name": "Kиїв Правий",
+          "originalName": "Київ Правий"
+        },
+        "remain": "1"
+      },
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "1"
+      },
+      {
+        "storage": {
+          "id": 23,
+          "name": "Дніпро",
+          "originalName": "Днепр"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030249/030249-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030249/030249-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030249/030249-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030249/030249-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.720",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "1.610",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "54.900",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "33.400",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "4.400",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000001096505"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 54,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0252",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 7.2,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 350.64,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 7.2,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/030252/03.0252.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/030252/03.0252.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/030252/03.0252.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/030252/03.0252.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.780",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000001096529"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 55,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0253",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 7.99,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 389.11,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 7.99,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/030253/03.0253.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/030253/03.0253.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/030253/03.0253.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/030253/03.0253.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.759",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000001096536"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 56,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0254",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 10.4,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 506.48,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 10.4,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/030254/03.0254.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/030254/03.0254.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/030254/03.0254.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/030254/03.0254.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.585",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000001096543"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 57,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0266",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 11.53,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 561.51,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 11.53,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/030266/03.0266.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/030266/03.0266.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/030266/03.0266.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/030266/03.0266.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.608",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000001356982"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 58,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0267",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 16.22,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 789.91,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 16.22,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030267/030267-pic01.jpg",
+        "displayOrder": 999,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030267/030267-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030267/030267-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030267/030267-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.800",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "2.090",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "58.700",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "34.300",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "5.200",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000312309"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 59,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0310",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 6.37,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 310.22,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 6.37,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.108",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000313306"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 60,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0314",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 4.56,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 222.07,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 4.56,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.110",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000313313"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 61,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0315",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 4.5,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 219.15,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 4.5,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.125",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000312316"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 62,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0326",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 8.08,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 393.5,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 8.08,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.162",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "3.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000312323"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 63,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0327",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 6.78,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 330.19,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 6.78,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/030327/03.0327.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/030327/03.0327.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/030327/03.0327.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/030327/03.0327.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.241",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000313320"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 64,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0329",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 6.62,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 322.39,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 6.62,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос газа"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.241",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "1.200",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000313757"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 65,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.0801",
+    "title": "Трос капоту",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 3.45,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 168.02,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 3.45,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/030801/030801-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/030801/030801-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/030801/030801-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/030801/030801-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос капота/багажника"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.104",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "3.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2043235886665"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 66,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.1202",
+    "title": "Шланг гальмівний гідравлічний",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 2.17,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 105.68,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 2.17,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/031202/03.1202.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/031202/03.1202.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/031202/03.1202.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/031202/03.1202.jpg"
+      }
+    ],
+    "category": {
+      "name": "Тормозные шланги"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.300",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "3.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2043235886610"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 67,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.1204",
+    "title": "Шланг гальмівний гідравлічний",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 2.46,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 119.8,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 2.46,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/031204/03.1204.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/031204/03.1204.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/031204/03.1204.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/031204/03.1204.jpg"
+      }
+    ],
+    "category": {
+      "name": "Тормозные шланги"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.310",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "3.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000318097"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 68,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.1500",
+    "title": "Трос спідометра",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.23,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 254.7,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.23,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "2"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/031500/03.1500.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/031500/03.1500.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/031500/03.1500.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/031500/03.1500.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос спидометра"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.330",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "1.650",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "26.500",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "70.700",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "4.400",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000313863"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 69,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.1503",
+    "title": "Трос спідометра",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.28,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 257.14,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.28,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 48,
+          "name": "Kиїв Правий",
+          "originalName": "Київ Правий"
+        },
+        "remain": "1"
+      },
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "4"
+      }
+    ],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос спидометра"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.300",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "0.910",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "43.700",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "26.000",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "4.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000318103"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 70,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.1504",
+    "title": "Трос спідометра",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.16,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 251.29,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.16,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 1,
+          "name": "Харків",
+          "originalName": "Харьков"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/031504/03.1504.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/031504/03.1504.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/031504/03.1504.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/031504/03.1504.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос спидометра"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.350",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "0.730",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "32.400",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "24.500",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "4.600",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000314143"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 71,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "03.1505",
+    "title": "Трос спідометра",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 4.41,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 214.77,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 4.41,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос спидометра"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.343",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319353"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 72,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0206",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 6.92,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 337,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 6.92,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.370",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "3.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000314310"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 73,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0207",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 6.06,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 295.12,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 6.06,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 48,
+          "name": "Kиїв Правий",
+          "originalName": "Київ Правий"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/050207/050207-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/050207/050207-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/050207/050207-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/050207/050207-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.410",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "0.730",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "59.300",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "34.400",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "1.800",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000321684"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 74,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0209",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.28,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 257.14,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.28,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/050209/050209-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/050209/050209-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/050209/050209-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/050209/050209-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.330",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "0.520",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "43.800",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "26.900",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "2.200",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000314327"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 75,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0210",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 4.26,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 207.46,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 4.26,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/10/050210/05-0210.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/10/050210/05-0210.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/10/050210/05-0210.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/10/050210/05-0210.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.367",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000321691"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 76,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0211",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.36,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 261.03,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.36,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/050211/050211-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/050211/050211-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/050211/050211-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/050211/050211-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.432",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "3.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000314334"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 77,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0215",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.47,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 266.39,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.47,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/050215/05.0215.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/050215/05.0215.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/050215/05.0215.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/050215/05.0215.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.373",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000321707"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 78,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0216",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 6.39,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 311.19,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 6.39,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "5"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/050216/050216-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/050216/050216-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/050216/050216-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/050216/050216-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.370",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "0.670",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "42.900",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "27.700",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "2.800",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000315270"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 79,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0217",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 4.98,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 242.53,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 4.98,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/050217/05.0217.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/050217/05.0217.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/050217/05.0217.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/050217/05.0217.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.370",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000322025"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 80,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0220",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 6.41,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 312.17,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 6.41,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "3"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/050220/050220-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/050220/050220-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/050220/050220-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/050220/050220-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.430",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "2.030",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "58.400",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "33.500",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "5.200",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000321844"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 81,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0221",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 6.09,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 296.58,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 6.09,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/050221/050221-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/050221/050221-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/050221/050221-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/050221/050221-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.444",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "3.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319360"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 82,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0222",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 6.3,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 306.81,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 6.3,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.330",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319377"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 83,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0223",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.08,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 247.4,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.08,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "2"
+      },
+      {
+        "storage": {
+          "id": 5,
+          "name": "Одеса",
+          "originalName": "Одесса"
+        },
+        "remain": "1"
+      },
+      {
+        "storage": {
+          "id": 6,
+          "name": "Миколаїв",
+          "originalName": "Николаев"
+        },
+        "remain": "1"
+      },
+      {
+        "storage": {
+          "id": 1,
+          "name": "Харків",
+          "originalName": "Харьков"
+        },
+        "remain": "3"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/050223/050223-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/050223/050223-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/050223/050223-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/050223/050223-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.380",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "0.570",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "45.100",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "26.500",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "2.400",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000315287"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 84,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0225",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.48,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 266.88,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.48,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/050225/05.0225.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/050225/05.0225.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/050225/05.0225.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/050225/05.0225.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.415",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000315294"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 85,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0226",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 4.3,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 209.41,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 4.3,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/10/050226/05-0226.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/10/050226/05-0226.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/10/050226/05-0226.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/10/050226/05-0226.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.383",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000315300"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 86,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0227",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.3,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 258.11,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.3,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/050227/050227-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/050227/050227-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/050227/050227-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/050227/050227-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.260",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "0.560",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "37.400",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "26.500",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "2.800",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000319384"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 87,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0228",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.57,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 271.26,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.57,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "2"
+      },
+      {
+        "storage": {
+          "id": 5,
+          "name": "Одеса",
+          "originalName": "Одесса"
+        },
+        "remain": "1"
+      },
+      {
+        "storage": {
+          "id": 23,
+          "name": "Дніпро",
+          "originalName": "Днепр"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/050228/050228-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/050228/050228-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/050228/050228-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/050228/050228-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.460",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "2.610",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "57.100",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "31.800",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "7.200",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000321714"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 88,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0229",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 5.65,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 275.16,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 5.65,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "2"
+      },
+      {
+        "storage": {
+          "id": 5,
+          "name": "Одеса",
+          "originalName": "Одесса"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/050229/050229-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/050229/050229-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/050229/050229-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/050229/050229-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.440",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "1.440",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "59.500",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "33.700",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "3.600",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000315317"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 89,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0230",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 6.22,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 302.91,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 6.22,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 48,
+          "name": "Kиїв Правий",
+          "originalName": "Київ Правий"
+        },
+        "remain": "1"
+      },
+      {
+        "storage": {
+          "id": 1,
+          "name": "Харків",
+          "originalName": "Харьков"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/050230/05.0230.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/050230/05.0230.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/050230/05.0230.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/050230/05.0230.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.413",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000315324"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 90,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0231",
+    "title": "Тросик",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 6.45,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 314.12,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 6.45,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 1,
+          "name": "Харків",
+          "originalName": "Харьков"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/050231/050231-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/050231/050231-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/050231/050231-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/050231/050231-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.430",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "3.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2043237123270",
+      "2000000315331"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 91,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0232",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 16.1,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 784.07,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 16.1,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/050232/050232-pic01.jpg",
+        "displayOrder": 999,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/050232/050232-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/050232/050232-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/050232/050232-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.520",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "1.440",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "58.400",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "32.400",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "3.800",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000001101452"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 92,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0235",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 7.19,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 350.15,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 7.19,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/050235/050235-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/050235/050235-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/050235/050235-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/050235/050235-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.500",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "1.670",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "50.600",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "31.800",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "5.200",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000001096550"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 93,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0236",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 7.21,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 351.13,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 7.21,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.484",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "1.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000315348"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 94,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0237",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 7.66,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 373.04,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 7.66,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "2"
+      },
+      {
+        "storage": {
+          "id": 23,
+          "name": "Дніпро",
+          "originalName": "Днепр"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/050237/050237-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/050237/050237-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/050237/050237-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/050237/050237-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.510",
+          "unit": "kg"
+        },
+        "volumetricWeight": {
+          "value": "1.750",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "61.700",
+            "unit": "cm"
+          },
+          "width": {
+            "value": "35.400",
+            "unit": "cm"
+          },
+          "height": {
+            "value": "4.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000000315355"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 95,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0238",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 7.64,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 372.07,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 7.64,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [
+      {
+        "storage": {
+          "id": 47,
+          "name": "Kиїв Лівий",
+          "originalName": "Киев Левый"
+        },
+        "remain": "3"
+      },
+      {
+        "storage": {
+          "id": 5,
+          "name": "Одеса",
+          "originalName": "Одесса"
+        },
+        "remain": "1"
+      },
+      {
+        "storage": {
+          "id": 23,
+          "name": "Дніпро",
+          "originalName": "Днепр"
+        },
+        "remain": "1"
+      }
+    ],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/050238/050238-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/050238/050238-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/050238/050238-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/050238/050238-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.512",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "3.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000001096567"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 96,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0242",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 6.91,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 336.52,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 6.91,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/050242/05.0242.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/050242/05.0242.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/050242/05.0242.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/050242/05.0242.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.345",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000001101469"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 97,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0243",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 8.4,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 409.08,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 8.4,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "akeneo/adriauto/050243/050243-pic01.jpg",
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/akeneo/adriauto/050243/050243-pic01.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/akeneo/adriauto/050243/050243-pic01.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/akeneo/adriauto/050243/050243-pic01.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.447",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "1.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000001096574"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 98,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0244",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 7.76,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 377.91,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 7.76,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.450",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.675",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000001357026"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 99,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0247",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 8.64,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 420.77,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 8.64,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/050247/05.0247.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/050247/05.0247.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/050247/05.0247.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/050247/05.0247.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.340",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  },
+  {
+    "multiplicity": 1,
+    "scanCodes": [
+      "2000001096581"
+    ],
+    "isLoyaltyProgram": false,
+    "id": 100,
+    "brand": {
+      "name": "ADRIAUTO",
+      "externalCode": "00001"
+    },
+    "displayBrand": "ADRIAUTO",
+    "article": "05.0249",
+    "title": "Трос ручного гальма",
+    "quantity": 1,
+    "yourPrice": {
+      "amount": 7.2,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "yourPriceUAH": {
+      "amount": 350.64,
+      "currency": {
+        "code": "UAH"
+      }
+    },
+    "yourPriceEUR": {
+      "amount": 7.2,
+      "currency": {
+        "code": "EUR"
+      }
+    },
+    "remains": [],
+    "detailInfo": [],
+    "images": [
+      {
+        "imagePath": "tecdoc/adriauto/050249/05.0249.jpg",
+        "displayOrder": 1,
+        "fullImagePath": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/images/tecdoc/adriauto/050249/05.0249.jpg",
+        "thumbnail": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail/tecdoc/adriauto/050249/05.0249.jpg",
+        "thumbnail2": "https://s3-eu-north-1.amazonaws.com/utr-detail-images/thumbnail2/tecdoc/adriauto/050249/05.0249.jpg"
+      }
+    ],
+    "category": {
+      "name": "Трос стояночного тормоза"
+    },
+    "units": [
+      {
+        "weightFull": {
+          "value": "0.464",
+          "unit": "kg"
+        },
+        "dimensions": {
+          "length": {
+            "value": "0.000",
+            "unit": "cm"
+          }
+        },
+        "unit": {
+          "id": 8,
+          "name": "шт"
+        }
+      }
+    ],
+    "modifier": 0,
+    "hasPartnerRemain": false
+  }
+]

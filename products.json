@@ -1,0 +1,66 @@
+[
+  {
+    "id": 3,
+    "brand": "Mercedes",
+    "name": "Свічка запалювання",
+    "price": 299,
+    "sku": "MB-SP-05",
+    "img": "img/merc1.svg"
+  },
+  {
+    "id": 4,
+    "brand": "Volkswagen",
+    "name": "Ремінь ГРМ",
+    "price": 2200,
+    "sku": "VW-TIM-22",
+    "img": "img/vw1.svg"
+  },
+  {
+    "id": 5,
+    "brand": "BMW",
+    "name": "Акумулятор 60Ah",
+    "price": 4300,
+    "sku": "BMW-BAT-60",
+    "img": "img/bmw2.svg"
+  },
+  {
+    "id": 6,
+    "brand": "Toyota",
+    "name": "Бампер передній",
+    "price": 3500,
+    "sku": "TY-BMP-01",
+    "img": "img/toyota2.svg"
+  },
+  {
+    "id": 1758912024156,
+    "brand": "xxx",
+    "name": "xxxx",
+    "price": 1234,
+    "sku": "xxxx",
+    "img": "img/default.svg"
+  },
+  {
+    "id": 1758912813773,
+    "brand": "3456",
+    "name": ",,,,,,,,,,",
+    "price": 112,
+    "sku": "2234",
+    "img": "img/default.svg"
+  },
+  {
+    "id": 1758913679314,
+    "brand": "334690",
+    "name": "567",
+    "price": 1,
+    "sku": "222",
+    "img": "C:\\Users\\Maks\\Pictures\\Screenshots\\Знімок екрана 2025-09-26 215510.png"
+  },
+  {
+    "id": 1758913853130,
+    "brand": "ІІІіі",
+    "name": "йййй",
+    "price": 2346,
+    "sku": "1224",
+    "img": "img\\Знімок екрана 2025-09-26 215510.png"
+  }
+]

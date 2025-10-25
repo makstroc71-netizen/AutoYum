@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Admin — AutoParts</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .product-list { padding: 18px; }
+    .product-item { display:flex; gap:8px; align-items:center; border-bottom:1px solid #ccc; padding:8px 0; }
+    .product-item input { width:100px; padding:4px; }
+    .product-item button { padding:4px 8px; cursor:pointer; }
+    #search-product { padding:6px; width:200px; margin-bottom:12px; }
+  </style>
+</head>
+<body>
+  <!-- Додавання нового товару -->
+  <section class="add-product">
+    <h3>Додати нову запчастину</h3>
+    <form id="add-product-form">
+      <input name="brand" placeholder="Марка" required>
+      <input name="name" placeholder="Назва" required>
+      <input name="price" type="number" placeholder="Ціна" required>
+      <input name="sku" placeholder="SKU" required>
+      <input name="img" placeholder="URL картинки (необов'язково)">
+      <input name="adminPass" type="password" placeholder="Пароль адміністратора" required>
+      <button type="submit">Додати</button>
+    </form>
+  </section>
+
+  <!-- Видалення товару через форму -->
+  <section class="remove-product">
+    <h3>Видалити запчастину за SKU</h3>
+    <form id="remove-product-form">
+      <input name="sku" placeholder="SKU товару" required>
+      <input name="adminPass" type="password" placeholder="Пароль адміністратора" required>
+      <button type="submit">Видалити</button>
+    </form>
+  </section>
+
+  <!-- Список всіх товарів з пошуком -->
+  <section class="product-list">
+    <h3>Список всіх товарів</h3>
+    <input type="text" id="search-product" placeholder="Пошук по каталогу...">
+    <div id="product-items"></div>
+  </section>
+
+  <script src="admin.js"></script>
+</body>
+</html>
