@@ -16,9 +16,11 @@ const searchBtn = document.getElementById('search-btn');
 const searchBox = document.getElementById('search-box');
 const searchInput = document.getElementById('search-input');
 const searchResults = document.getElementById('search-results');
+const catalogCount = document.getElementById('catalog-count');
 
 searchBtn.addEventListener('click', () => {
   searchBox.classList.toggle('hidden');
+  catalogCount.classList.remove('hidden'); // показуємо надпис
   if (!searchBox.classList.contains('hidden')) searchInput.focus();
 });
 
@@ -41,8 +43,6 @@ savedBtn.addEventListener('click', () => {
 let products = [];
 let catalogLoaded = false;
 
-searchResults.innerHTML = '<div>Каталог завантажується...</div>';
-
 fetch('catalog.json')
   .then(res => res.json())
   .then(data => {
@@ -54,7 +54,7 @@ fetch('catalog.json')
       category: p.category?.name || ""
     }));
     catalogLoaded = true;
-    searchResults.innerHTML = '';
+    catalogCount.textContent = `У каталозі: ${products.length} товарів`;
   })
   .catch(err => {
     console.error("Помилка завантаження каталогу:", err);
@@ -81,31 +81,39 @@ searchInput.addEventListener('input', () => {
     if (results.length === 0) {
       searchResults.innerHTML = '<div>Нічого не знайдено</div>';
     } else {
-      results.forEach(p => {
-        const card = document.createElement('div');
-        card.className = 'product-card'; // використовується новий стиль
-
-        card.innerHTML = `
-          <div class="product-title">${p.title}</div>
-          <div class="product-brand">${p.brand}</div>
-          <div class="product-article">SKU: ${p.article}</div>
-          <div class="product-price">${p.price}</div>
-          <button class="save-btn">💖 Зберегти</button>
-        `;
-
-        card.querySelector('.save-btn').addEventListener('click', () => {
-          if (!savedItems.find(x => x.article === p.article)) {
-            savedItems.push(p);
-            localStorage.setItem('saved_items', JSON.stringify(savedItems));
-            alert(`${p.title} додано до збережених`);
-          } else alert(`${p.title} вже в збережених`);
-        });
-
-        searchResults.appendChild(card);
-      });
+      renderCards(results, searchResults);
     }
   }
 });
+
+// ================= RENDER CARDS =================
+function renderCards(items, container) {
+  container.innerHTML = '';
+  items.forEach(p => {
+    const card = document.createElement('div');
+    card.className = 'card';
+
+    card.innerHTML = `
+      <div class="prod-meta">
+        <h4>${p.title}</h4>
+        <small>${p.brand}</small>
+        <small>SKU: ${p.article}</small>
+        <div class="price">${p.price}</div>
+        <button class="save-btn">💖 Зберегти</button>
+      </div>
+    `;
+
+    card.querySelector('.save-btn').addEventListener('click', () => {
+      if (!savedItems.find(x => x.article === p.article)) {
+        savedItems.push(p);
+        localStorage.setItem('saved_items', JSON.stringify(savedItems));
+        alert(`${p.title} додано до збережених`);
+      } else alert(`${p.title} вже в збережених`);
+    });
+
+    container.appendChild(card);
+  });
+}
 
 // ================= RENDER SAVED =================
 function renderSaved() {
@@ -114,29 +122,15 @@ function renderSaved() {
   if (savedItems.length === 0) {
     savedList.innerHTML = '<p>Поки що немає збережених товарів ❤️</p>';
   } else {
-    savedItems.forEach(p => {
-      const card = document.createElement('div');
-      card.className = 'product-card'; // теж матриця
+    renderCards(savedItems, savedList);
 
-      card.innerHTML = `
-        <div class="product-title">${p.title}</div>
-        <div class="product-brand">${p.brand}</div>
-        <div class="product-article">SKU: ${p.article}</div>
-        <div class="product-price">${p.price}</div>
-        <button class="save-btn">💔 Видалити</button>
-      `;
-
-      card.querySelector('.save-btn').addEventListener('click', () => {
-        savedItems = savedItems.filter(x => x.article !== p.article);
+    savedList.querySelectorAll('.save-btn').forEach((btn, i) => {
+      btn.textContent = '💔 Видалити';
+      btn.onclick = () => {
+        savedItems.splice(i, 1);
         localStorage.setItem('saved_items', JSON.stringify(savedItems));
         renderSaved();
-      });
-
-      savedList.appendChild(card);
+      };
     });
   }
 }
-
-// ================= LOGO SIZE =================
-logo.style.height = '90px';
-logo.style.width = 'auto';

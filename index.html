@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AutoYuM — автозапчастини онлайн</title>
-
+  
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+  
   <!-- CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -15,7 +15,7 @@
   <!-- ================= HEADER ================= -->
   <header class="site-header">
     <div class="header-left">
-      <img id="logo" src="logo.jpg" alt="AutoYuM" class="logo">
+      <img id="logo" src="logo.jpg" alt="AutoYum" class="logo">
     </div>
 
     <div class="header-center">
@@ -38,10 +38,13 @@
   <!-- ================= MAIN ================= -->
   <main>
     <section class="main-actions">
-      <button id="search-btn" class="btn search-btn"><i class="fas fa-search"></i> Пошук деталей</button>
+      <button id="search-btn" class="btn search-btn"><i class="fas fa-search"></i> Пошук товарів</button>
       <div id="search-box" class="hidden">
         <input type="text" id="search-input" placeholder="Введіть назву або артикул...">
       </div>
+
+      <!-- Надпис з кількістю деталей -->
+      <div id="catalog-count" class="catalog-count hidden"></div>
 
       <button id="order-btn" class="btn order-btn"><i class="fas fa-phone"></i> Замовити</button>
       <div id="order-links" class="hidden">
@@ -50,13 +53,13 @@
       </div>
 
       <button id="saved-btn" class="btn saved-btn"><i class="fas fa-heart"></i> Збережено</button>
-      <div id="saved-list" class="hidden saved-container">
+      <div id="saved-list" class="hidden">
         <p>Поки що немає збережених товарів ❤️</p>
       </div>
     </section>
 
     <!-- Результати пошуку -->
-    <section id="search-results" class="products-container"></section>
+    <section id="search-results"></section>
   </main>
 
   <!-- ================= FOOTER ================= -->
