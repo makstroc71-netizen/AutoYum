@@ -134,3 +134,21 @@ function renderSaved() {
     });
   }
 }
+async function searchByVin(vin) {
+  searchResults.innerHTML = '<div>Пошук по VIN, зачекайте...</div>';
+
+  try {
+    const res = await fetch(`/api/vin-search?vin=${vin}`);
+    const data = await res.json();
+
+    if (!data.groups || data.groups.length === 0) {
+      searchResults.innerHTML = '<div>Нічого не знайдено по VIN</div>';
+      return;
+    }
+
+    renderVinResult(data.groups);
+  } catch (e) {
+    console.error(e);
+    searchResults.innerHTML = '<div style="color:red">Помилка пошуку по VIN</div>';
+  }
+}
