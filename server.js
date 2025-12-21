@@ -1,80 +1,85 @@
 import express from "express";
+import fetch from "node-fetch"; // якщо Node >=18, можна без цього
+import cors from "cors";
 
 const app = express();
+app.use(cors());
+app.use(express.json());
+
 const PORT = process.env.PORT || 3000;
 
-// ============ HELPERS ============
-async function fetchJSON(url) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error("Fetch error");
+// Функція для fetch JSON
+async function fetchJSON(url, options = {}) {
+  const res = await fetch(url, options);
   return res.json();
 }
 
-async function getGroupData(catalog, ssd, groupId) {
-  const url =
-    `https://partsfitment-ext.prod.cp.autonovad.ua/pub/v1/groups` +
-    `?catalog=${catalog}` +
-    `&vehicleId=0` +
-    `&categoryId=-1` +
-    `&ssd=${encodeURIComponent(ssd)}` +
-    `&groupId=${groupId}` +
-    `&search=0&restore=0`;
+// Отримуємо дані по VIN
+async function getVinData(vin) {
+  const url = `https://partsfitment-ext.prod.cp.autonovad.ua/pub/v1/vin?vinCode=${vin}`;
+  const data = await fetchJSON(url);
+  return data; // містить catalog, ssd, vehicleId тощо
+}
 
+// Отримуємо групи по catalog і ssd
+async function getGroups(catalog, ssd) {
+  const url = `https://catalogue-api.autonovad.ua/api/category-projections/tree`;
+  const categories = await fetchJSON(url);
+  
+  // Беремо усі groupId з категорій (можна адаптувати)
+  return categories.map(cat => cat.id).filter(Boolean);
+}
+
+// Отримуємо товари для групи
+async function getGroupData(catalog, ssd, groupId) {
+  const url = `https://partsfitment-ext.prod.cp.autonovad.ua/pub/v1/groups?catalog=${catalog}&vehicleId=0&categoryId=-1&ssd=${encodeURIComponent(ssd)}&groupId=${groupId}&search=0&restore=0`;
   const data = await fetchJSON(url);
   return data?.data?.details?.categories || [];
 }
 
+// Отримуємо пропозиції для OEM
 async function getOffers(oem) {
   try {
     const url = `https://catalogue-api.autonovad.ua/api/products/${oem}_291/external-offers`;
     const data = await fetchJSON(url);
-
-    if (!Array.isArray(data?.offers)) return [];
-
+    if (!data?.offers) return [];
     return data.offers.map(o => ({
-      name: o.name || "",
+      seller: o.seller || "Unknown",
       price: o.price || 0,
-      seller: o.seller || ""
+      name: o.name || "",
+      link: o.link || ""
     }));
   } catch {
     return [];
   }
 }
 
-// ============ ROUTES ============
-
-app.get("/", (req, res) => {
-  res.send("AutoYuM API is running");
-});
-
+// ================= ROUTE =================
 app.get("/catalog", async (req, res) => {
-  const { catalog, ssd, groupIds } = req.query;
-
-  if (!catalog || !ssd || !groupIds) {
-    return res.status(400).json({
-      error: "catalog, ssd and groupIds required"
-    });
-  }
-
-  const result = {};
-  const groups = groupIds.split(",");
+  const vin = req.query.vin;
+  if (!vin) return res.status(400).send("VIN is required");
 
   try {
-    for (const groupId of groups) {
+    const vinData = await getVinData(vin);
+    const catalog = vinData.catalog;
+    const ssd = vinData.ssd;
+    
+    const groupIds = await getGroups(catalog, ssd);
+
+    const result = {};
+
+    for (const groupId of groupIds) {
       const categories = await getGroupData(catalog, ssd, groupId);
-      const groupName = `Група ${groupId}`;
-      result[groupName] = [];
+      result[`Group ${groupId}`] = [];
 
       for (const category of categories) {
-        for (const unit of category.units || []) {
-          for (const part of unit.parts || []) {
+        if (!Array.isArray(category.units)) continue;
+        for (const unit of category.units) {
+          if (!Array.isArray(unit.parts)) continue;
+          for (const part of unit.parts) {
             if (!part.oem) continue;
-
             const offers = await getOffers(part.oem);
-
-            if (offers.length === 0) continue;
-
-            result[groupName].push({
+            result[`Group ${groupId}`].push({
               oem: part.oem,
               name: part.name,
               offers
@@ -87,13 +92,13 @@ app.get("/catalog", async (req, res) => {
     res.json(result);
 
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    res.status(500).send("Error fetching data: " + err.message);
   }
 });
 
-// ============ START ============
 app.listen(PORT, () => {
-  console.log("Server running on port", PORT);
+  console.log(`AutoYuM API running on port ${PORT}`);
 });
+
 
 
