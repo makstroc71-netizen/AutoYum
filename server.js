@@ -4,35 +4,51 @@ import axios from "axios";
 const app = express();
 const PORT = 3000;
 
-app.use(express.static(".")); // віддає HTML/CSS/JS
+app.use(express.static("."));
 
-// ================= VIN SEARCH API =================
 app.get("/api/vin-search", async (req, res) => {
   const { vin } = req.query;
-
   if (!vin || vin.length !== 17) {
     return res.json({ groups: [] });
   }
 
   try {
-    // 1️⃣ VIN → авто
+    // 1️⃣ VIN → catalog
     const vinRes = await axios.get(
       `https://partsfitment-ext.prod.cp.autonovad.ua/pub/v1/vin?vinCode=${vin}`
     );
 
-    const { catalog, vehicleId, ssd } = vinRes.data;
+    const catalog = vinRes.data.catalog;
+    if (!catalog) return res.json({ groups: [] });
 
-    // 2️⃣ ГРУПИ
-    const groupsRes = await axios.get(
+    // 2️⃣ ПЕРШИЙ groups-запит — щоб отримати SSD
+    const firstGroups = await axios.get(
+      `https://partsfitment-ext.prod.cp.autonovad.ua/pub/v1/groups`,
+      {
+        params: {
+          catalog,
+          vehicleId: 0,
+          categoryId: -1,
+          groupId: 2,
+          search: 0,
+          restore: 0
+        }
+      }
+    );
+
+    const ssd =
+      firstGroups.data?.data?.details?.categories?.[0]?.ssd;
+
+    if (!ssd) return res.json({ groups: [] });
+
+    // 3️⃣ ГРУПИ
+    const tree = await axios.get(
       `https://catalogue-api.autonovad.ua/api/category-projections/tree`
     );
 
-    const resultGroups = [];
+    const result = [];
 
-    for (const group of groupsRes.data) {
-      if (!group.id || !group.name) continue;
-
-      // 3️⃣ ТОВАРИ В ГРУПІ
+    for (const group of tree.data) {
       const partsRes = await axios.get(
         `https://partsfitment-ext.prod.cp.autonovad.ua/pub/v1/groups`,
         {
@@ -50,26 +66,24 @@ app.get("/api/vin-search", async (req, res) => {
 
       const products = [];
 
-      const categories =
+      const cats =
         partsRes.data?.data?.details?.categories || [];
 
-      for (const cat of categories) {
-        for (const unit of cat.units || []) {
-          for (const part of unit.parts || []) {
-            if (!part.oem) continue;
+      for (const c of cats) {
+        for (const u of c.units || []) {
+          for (const p of u.parts || []) {
+            if (!p.oem) continue;
 
-            // 4️⃣ ЦІНИ
             const priceRes = await axios.get(
-              `https://catalogue-api.autonovad.ua/api/products/${part.oem}_291/external-offers`
+              `https://catalogue-api.autonovad.ua/api/products/${p.oem}_291/external-offers`
             );
 
             const offer = priceRes.data?.[0];
-
             if (!offer) continue;
 
             products.push({
-              oem: part.oem,
-              name: part.name,
+              oem: p.oem,
+              name: p.name,
               price: offer.price?.amount || "—"
             });
           }
@@ -77,14 +91,14 @@ app.get("/api/vin-search", async (req, res) => {
       }
 
       if (products.length) {
-        resultGroups.push({
+        result.push({
           groupName: group.name,
           products
         });
       }
     }
 
-    res.json({ groups: resultGroups });
+    res.json({ groups: result });
   } catch (e) {
     console.error(e.message);
     res.json({ groups: [] });
@@ -92,6 +106,7 @@ app.get("/api/vin-search", async (req, res) => {
 });
 
 app.listen(PORT, () =>
-  console.log(`✅ Server running: http://localhost:${PORT}`)
+  console.log(`✅ http://localhost:${PORT}`)
 );
+
 
