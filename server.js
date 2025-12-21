@@ -84,5 +84,3 @@ const server = http.createServer(async (req, res) => {
 server.listen(3000, () => {
   console.log("AutoYuM API is running on http://localhost:3000");
 });
-
-
