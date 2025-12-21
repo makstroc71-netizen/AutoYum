@@ -1,112 +1,99 @@
 import express from "express";
-import axios from "axios";
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
-app.use(express.static("."));
+// ============ HELPERS ============
+async function fetchJSON(url) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error("Fetch error");
+  return res.json();
+}
 
-app.get("/api/vin-search", async (req, res) => {
-  const { vin } = req.query;
-  if (!vin || vin.length !== 17) {
-    return res.json({ groups: [] });
+async function getGroupData(catalog, ssd, groupId) {
+  const url =
+    `https://partsfitment-ext.prod.cp.autonovad.ua/pub/v1/groups` +
+    `?catalog=${catalog}` +
+    `&vehicleId=0` +
+    `&categoryId=-1` +
+    `&ssd=${encodeURIComponent(ssd)}` +
+    `&groupId=${groupId}` +
+    `&search=0&restore=0`;
+
+  const data = await fetchJSON(url);
+  return data?.data?.details?.categories || [];
+}
+
+async function getOffers(oem) {
+  try {
+    const url = `https://catalogue-api.autonovad.ua/api/products/${oem}_291/external-offers`;
+    const data = await fetchJSON(url);
+
+    if (!Array.isArray(data?.offers)) return [];
+
+    return data.offers.map(o => ({
+      name: o.name || "",
+      price: o.price || 0,
+      seller: o.seller || ""
+    }));
+  } catch {
+    return [];
+  }
+}
+
+// ============ ROUTES ============
+
+app.get("/", (req, res) => {
+  res.send("AutoYuM API is running");
+});
+
+app.get("/catalog", async (req, res) => {
+  const { catalog, ssd, groupIds } = req.query;
+
+  if (!catalog || !ssd || !groupIds) {
+    return res.status(400).json({
+      error: "catalog, ssd and groupIds required"
+    });
   }
 
+  const result = {};
+  const groups = groupIds.split(",");
+
   try {
-    // 1️⃣ VIN → catalog
-    const vinRes = await axios.get(
-      `https://partsfitment-ext.prod.cp.autonovad.ua/pub/v1/vin?vinCode=${vin}`
-    );
+    for (const groupId of groups) {
+      const categories = await getGroupData(catalog, ssd, groupId);
+      const groupName = `Група ${groupId}`;
+      result[groupName] = [];
 
-    const catalog = vinRes.data.catalog;
-    if (!catalog) return res.json({ groups: [] });
+      for (const category of categories) {
+        for (const unit of category.units || []) {
+          for (const part of unit.parts || []) {
+            if (!part.oem) continue;
 
-    // 2️⃣ ПЕРШИЙ groups-запит — щоб отримати SSD
-    const firstGroups = await axios.get(
-      `https://partsfitment-ext.prod.cp.autonovad.ua/pub/v1/groups`,
-      {
-        params: {
-          catalog,
-          vehicleId: 0,
-          categoryId: -1,
-          groupId: 2,
-          search: 0,
-          restore: 0
-        }
-      }
-    );
+            const offers = await getOffers(part.oem);
 
-    const ssd =
-      firstGroups.data?.data?.details?.categories?.[0]?.ssd;
+            if (offers.length === 0) continue;
 
-    if (!ssd) return res.json({ groups: [] });
-
-    // 3️⃣ ГРУПИ
-    const tree = await axios.get(
-      `https://catalogue-api.autonovad.ua/api/category-projections/tree`
-    );
-
-    const result = [];
-
-    for (const group of tree.data) {
-      const partsRes = await axios.get(
-        `https://partsfitment-ext.prod.cp.autonovad.ua/pub/v1/groups`,
-        {
-          params: {
-            catalog,
-            vehicleId: 0,
-            categoryId: -1,
-            groupId: group.id,
-            search: 0,
-            restore: 0,
-            ssd
-          }
-        }
-      );
-
-      const products = [];
-
-      const cats =
-        partsRes.data?.data?.details?.categories || [];
-
-      for (const c of cats) {
-        for (const u of c.units || []) {
-          for (const p of u.parts || []) {
-            if (!p.oem) continue;
-
-            const priceRes = await axios.get(
-              `https://catalogue-api.autonovad.ua/api/products/${p.oem}_291/external-offers`
-            );
-
-            const offer = priceRes.data?.[0];
-            if (!offer) continue;
-
-            products.push({
-              oem: p.oem,
-              name: p.name,
-              price: offer.price?.amount || "—"
+            result[groupName].push({
+              oem: part.oem,
+              name: part.name,
+              offers
             });
           }
         }
       }
-
-      if (products.length) {
-        result.push({
-          groupName: group.name,
-          products
-        });
-      }
     }
 
-    res.json({ groups: result });
-  } catch (e) {
-    console.error(e.message);
-    res.json({ groups: [] });
+    res.json(result);
+
+  } catch (err) {
+    res.status(500).json({ error: err.message });
   }
 });
 
-app.listen(PORT, () =>
-  console.log(`✅ http://localhost:${PORT}`)
-);
+// ============ START ============
+app.listen(PORT, () => {
+  console.log("Server running on port", PORT);
+});
 
 
