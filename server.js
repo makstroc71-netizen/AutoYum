@@ -8,19 +8,23 @@ const __dirname = path.dirname(__filename);
 
 async function fetchJSON(url) {
     const res = await fetch(url);
-    // Якщо зовнішній API видає 500, ми не "падаємо", а обробляємо це нижче
     if (!res.ok) return { error: true, status: res.status };
     return res.json();
 }
 
+// 1. Отримуємо дані про авто (catalog та ssd) по VIN
+async function getVinData(vin) {
+    const url = `https://partsfitment-ext.prod.cp.autonovad.ua/pub/v1/vehicles/${vin}?search=0&ssd=`;
+    const data = await fetchJSON(url);
+    if (data.error || !data?.data?.vehicles?.[0]) return null;
+    return data.data.vehicles[0]; // Повертає об'єкт з catalog та ssd
+}
+
+// 2. Отримуємо групи запчастин
 async function getGroupData(catalog, ssd, groupId) {
     const url = `https://partsfitment-ext.prod.cp.autonovad.ua/pub/v1/groups?catalog=${catalog}&vehicleId=0&categoryId=-1&ssd=${encodeURIComponent(ssd)}&groupId=${groupId}&search=0&restore=0`;
     const data = await fetchJSON(url);
-    
-    if (data.error || !data?.data?.details?.categories) {
-        console.error("Помилка при отриманні груп від Autonovad");
-        return null; 
-    }
+    if (data.error || !data?.data?.details?.categories) return null;
     return data.data.details.categories;
 }
 
@@ -28,52 +32,49 @@ const server = http.createServer(async (req, res) => {
     const url = new URL(req.url, `http://${req.headers.host}`);
 
     if (url.pathname === "/catalog") {
-        const catalog = url.searchParams.get("catalog");
-        const ssd = url.searchParams.get("ssd");
-        const groupIdsParam = url.searchParams.get("groupIds");
+        const vin = url.searchParams.get("vin"); // Тепер приймаємо VIN
 
         try {
-            const groupIds = groupIdsParam.split(",");
-            const result = {};
+            // КРОК 1: Розшифровуємо VIN
+            const vehicle = await getVinData(vin || "W1N00000000000000"); // тестовий або реальний
+            
+            if (!vehicle) {
+                res.writeHead(200, { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" });
+                return res.end(JSON.stringify({ "Помилка": [{ oem: "VIN_ERR", name: "Некоректний VIN-код або авто не знайдено" }] }));
+            }
 
-            for (const groupId of groupIds) {
-                const categories = await getGroupData(catalog, ssd, groupId);
-                
-                if (!categories) {
-                    // ЯКЩО API ПОВЕРНУЛО 500 — ВІДДАЄМО ТЕСТОВУ ДЕТАЛЬ
-                    result[`Group_${groupId}`] = [
-                        { oem: "A0004200000", name: "Тестова деталь (API Autonovad тимчасово недоступне)" }
-                    ];
-                } else {
-                    let parts = [];
-                    categories.forEach(cat => {
-                        if (cat.units) cat.units.forEach(u => {
-                            if (u.parts) u.parts.forEach(p => {
-                                if (p.oem) parts.push({ oem: p.oem, name: p.name });
-                            });
+            // КРОК 2: Шукаємо запчастини по отриманих catalog та ssd
+            const categories = await getGroupData(vehicle.catalog, vehicle.ssd, "1"); // Шукаємо групу 1
+            
+            const result = {};
+            if (!categories) {
+                result["Статус"] = [{ oem: "API_LIMIT", name: "Каталог знайдено, але доступ до деталей обмежено (500)" }];
+            } else {
+                let parts = [];
+                categories.forEach(cat => {
+                    cat.units?.forEach(u => {
+                        u.parts?.forEach(p => {
+                            if (p.oem) parts.push({ oem: p.oem, name: p.name });
                         });
                     });
-                    result[`Group_${groupId}`] = parts;
-                }
+                });
+                result[`Запчастини_${vehicle.brand}`] = parts;
             }
 
             res.writeHead(200, { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" });
             res.end(JSON.stringify(result));
+
         } catch (err) {
-            console.error("Критична помилка сервера:", err.message);
-            res.writeHead(200, { "Content-Type": "application/json" });
-            res.end(JSON.stringify({ 
-                "Group_Error": [{ oem: "ERROR", name: "Помилка сервера: " + err.message }] 
-            }));
+            res.writeHead(500);
+            res.end(err.message);
         }
         return;
     }
 
-    // Роздача файлів (index, css, js)
+    // Роздача файлів (без змін)
     let filePath = path.join(__dirname, url.pathname === "/" ? "index.html" : url.pathname);
     const ext = path.extname(filePath).toLowerCase();
-    const mimeTypes = { ".html": "text/html", ".js": "text/javascript", ".css": "text/css", ".jpg": "image/jpeg", ".png": "image/png" };
-
+    const mimeTypes = { ".html": "text/html", ".js": "text/javascript", ".css": "text/css" };
     fs.readFile(filePath, (err, content) => {
         if (err) { res.writeHead(404); res.end("Not Found"); }
         else { res.writeHead(200, { "Content-Type": mimeTypes[ext] || "text/plain" }); res.end(content); }
@@ -81,4 +82,4 @@ const server = http.createServer(async (req, res) => {
 });
 
 const PORT = process.env.PORT || 10000;
-server.listen(PORT, () => console.log(`🚀 Сервер на порту ${PORT}`));
+server.listen(PORT, () => console.log(`🚀 Сервер готовий на порту ${PORT}`));
