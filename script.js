@@ -21,86 +21,87 @@ searchBtn.addEventListener('click', () => {
     if (!searchBox.classList.contains('hidden')) searchInput.focus();
 });
 
-// ================= ФУНКЦІЯ ОТРИМАННЯ ЦІНИ (БРАУЗЕРОМ) =================
+// ================= ФУНКЦІЯ ОТРИМАННЯ ЦІНИ =================
 async function getPriceForOem(oem) {
     try {
-        // Запит йде безпосередньо з браузера клієнта до API цін
+        // Пробуємо отримати ціну через API
         const res = await fetch(`https://catalogue-api.autonovad.ua/api/products/${oem}_291/external-offers`);
+        if (!res.ok) throw new Error();
         const data = await res.json();
+        
         if (data?.offers && data.offers.length > 0) {
             return `${data.offers[0].price} грн`;
         }
-        return "Під замовлення";
+        return "За запитом";
     } catch (err) {
-        return "Під замовлення";
+        // Якщо помилка (таймаут або 500) — повертаємо нейтральний напис
+        return "За запитом 📞";
     }
 }
 
-// ================= ПОШУК ЗА ENTER =================
+// ================= ГОЛОВНИЙ ПОШУК =================
 searchInput.addEventListener('keypress', async (e) => {
     if (e.key === 'Enter') {
         const query = searchInput.value.trim();
         if (!query) return;
 
-        searchResults.innerHTML = '<div class="loading">Завантаження каталогу...</div>';
+        // Показуємо початковий статус
+        searchResults.innerHTML = '<div class="status-msg">Завантажуємо структуру каталогу...</div>';
 
         try {
-            // Отримуємо список запчастин від твого сервера на Render
+            // Запит до твого сервера на Render (тільки структура)
             const res = await fetch(`/catalog?catalog=MB202303&ssd=$*&groupIds=1`);
-            if (!res.ok) throw new Error("Помилка сервера");
+            if (!res.ok) throw new Error("Сервер не відповідає");
             
             const data = await res.json();
-            searchResults.innerHTML = ''; // Очищуємо для результатів
+            
+            // Очищуємо статус і готуємо місце для карток
+            searchResults.innerHTML = ''; 
 
+            // Проходимо по отриманих групах
             for (const group in data) {
-                data[group].forEach(item => {
-                    // 1. Створюємо картку
-                    const card = document.createElement('div');
-                    card.className = 'card';
-                    
-                    // Створюємо унікальний ID для поля ціни, щоб знайти його потім
+                const parts = data[group];
+                
+                if (parts.length === 0) continue;
+
+                parts.forEach(item => {
+                    // Створюємо унікальний ID для поля ціни
                     const priceId = `price-${item.oem.replace(/[^a-zA-Z0-9]/g, '')}`;
 
+                    // Створюємо картку деталі
+                    const card = document.createElement('div');
+                    card.className = 'card';
                     card.innerHTML = `
                         <div class="prod-meta">
+                            <small class="group-label">${group.replace('_', ' ')}</small>
                             <h4>${item.name}</h4>
-                            <small>OEM: ${item.oem}</small>
-                            <div class="price" id="${priceId}">Шукаємо ціну...</div>
+                            <small>OEM: <strong>${item.oem}</strong></small>
+                            <div class="price" id="${priceId}">Оновлюємо ціну...</div>
                             <button class="save-btn">💖 Зберегти</button>
                         </div>
                     `;
+                    
+                    // Додаємо картку в результати миттєво!
                     searchResults.appendChild(card);
 
-                    // 2. Окремо запускаємо пошук ціни для цієї картки
+                    // ЗАПУСКАЄМО ПОШУК ЦІНИ ОКРЕМО (не чекаємо його для виводу інших карток)
                     getPriceForOem(item.oem).then(price => {
                         const priceElement = document.getElementById(priceId);
-                        if (priceElement) priceElement.innerText = price;
+                        if (priceElement) {
+                            priceElement.innerText = price;
+                            priceElement.classList.add('loaded'); // можна додати анімацію появи
+                        }
                     });
-
-                    // 3. Додаємо функцію збереження
-                    card.querySelector('.save-btn').onclick = () => {
-                        saveProduct({ title: item.name, article: item.oem });
-                    };
                 });
             }
+
+            if (searchResults.innerHTML === '') {
+                searchResults.innerHTML = '<div>Запчастин не знайдено</div>';
+            }
+
         } catch (err) {
             console.error(err);
-            searchResults.innerHTML = '<div style="color:red">Помилка завантаження. Спробуйте ще раз через хвилину.</div>';
+            searchResults.innerHTML = `<div style="color:orange">Помилка з'єднання з сервером. Виведено лише локальні дані або спробуйте ще раз.</div>`;
         }
     }
 });
-
-// ================= ДОДАТКОВІ ФУНКЦІЇ (ЗБЕРЕЖЕННЯ) =================
-const orderBtn = document.getElementById('order-btn');
-const orderLinks = document.getElementById('order-links');
-orderBtn.onclick = () => orderLinks.classList.toggle('hidden');
-
-let savedItems = JSON.parse(localStorage.getItem('saved_items') || '[]');
-
-function saveProduct(p) {
-    if (!savedItems.find(x => x.article === p.article)) {
-        savedItems.push(p);
-        localStorage.setItem('saved_items', JSON.stringify(savedItems));
-        alert('Збережено!');
-    }
-}
