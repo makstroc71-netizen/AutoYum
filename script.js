@@ -1,11 +1,13 @@
-// Тема та інтерфейс (твій оригінальний код)
+// ================= ТЕМА ТА ІНТЕРФЕЙС =================
 const themeToggle = document.getElementById('theme-toggle');
 const logo = document.getElementById('logo');
+
 function setTheme(dark) {
     document.body.classList.toggle('dark', dark);
     if (logo) logo.style.filter = dark ? 'invert(1)' : 'invert(0)';
     localStorage.setItem('theme', dark ? 'dark' : 'light');
 }
+
 themeToggle.addEventListener('click', () => setTheme(!document.body.classList.contains('dark')));
 if (localStorage.getItem('theme') === 'dark') setTheme(true);
 
@@ -19,70 +21,86 @@ searchBtn.addEventListener('click', () => {
     if (!searchBox.classList.contains('hidden')) searchInput.focus();
 });
 
-// Пошук по VIN (твій новий функціонал)
+// ================= ФУНКЦІЯ ОТРИМАННЯ ЦІНИ (БРАУЗЕРОМ) =================
+async function getPriceForOem(oem) {
+    try {
+        // Запит йде безпосередньо з браузера клієнта до API цін
+        const res = await fetch(`https://catalogue-api.autonovad.ua/api/products/${oem}_291/external-offers`);
+        const data = await res.json();
+        if (data?.offers && data.offers.length > 0) {
+            return `${data.offers[0].price} грн`;
+        }
+        return "Під замовлення";
+    } catch (err) {
+        return "Під замовлення";
+    }
+}
+
+// ================= ПОШУК ЗА ENTER =================
 searchInput.addEventListener('keypress', async (e) => {
     if (e.key === 'Enter') {
         const query = searchInput.value.trim();
-        if (query) {
-            searchResults.innerHTML = '<div class="loading">Шукаємо деталі та актуальні ціни... зачекайте...</div>';
-            console.log("Початок пошуку для:", query);
+        if (!query) return;
 
-            try {
-                // Викликаємо наш API на Render
-                const res = await fetch(`/catalog?catalog=MB202303&ssd=$*&groupIds=1`);
-                
-                if (!res.ok) {
-                    throw new Error(`Сервер повернув помилку: ${res.status}`);
-                }
+        searchResults.innerHTML = '<div class="loading">Завантаження каталогу...</div>';
 
-                const data = await res.json();
-                console.log("Дані отримано:", data);
-                
-                let flatList = [];
-                // Проходимо по групах (Group_1, і т.д.)
-                for (const groupKey in data) {
-                    data[groupKey].forEach(item => {
-                        // Перевіряємо, чи є оффери
-                        const hasOffers = item.offers && item.offers.length > 0;
-                        const price = hasOffers ? `${item.offers[0].price} грн` : "Під замовлення";
-                        const seller = hasOffers ? item.offers[0].seller : "AutoYuM";
+        try {
+            // Отримуємо список запчастин від твого сервера на Render
+            const res = await fetch(`/catalog?catalog=MB202303&ssd=$*&groupIds=1`);
+            if (!res.ok) throw new Error("Помилка сервера");
+            
+            const data = await res.json();
+            searchResults.innerHTML = ''; // Очищуємо для результатів
 
-                        flatList.push({ 
-                            title: item.name || "Запчастина", 
-                            article: item.oem, 
-                            price: price, 
-                            brand: seller 
-                        });
+            for (const group in data) {
+                data[group].forEach(item => {
+                    // 1. Створюємо картку
+                    const card = document.createElement('div');
+                    card.className = 'card';
+                    
+                    // Створюємо унікальний ID для поля ціни, щоб знайти його потім
+                    const priceId = `price-${item.oem.replace(/[^a-zA-Z0-9]/g, '')}`;
+
+                    card.innerHTML = `
+                        <div class="prod-meta">
+                            <h4>${item.name}</h4>
+                            <small>OEM: ${item.oem}</small>
+                            <div class="price" id="${priceId}">Шукаємо ціну...</div>
+                            <button class="save-btn">💖 Зберегти</button>
+                        </div>
+                    `;
+                    searchResults.appendChild(card);
+
+                    // 2. Окремо запускаємо пошук ціни для цієї картки
+                    getPriceForOem(item.oem).then(price => {
+                        const priceElement = document.getElementById(priceId);
+                        if (priceElement) priceElement.innerText = price;
                     });
-                }
 
-                if (flatList.length === 0) {
-                    searchResults.innerHTML = '<div>Запчастин не знайдено, спробуйте пізніше</div>';
-                } else {
-                    renderCards(flatList, searchResults);
-                }
-
-            } catch (err) {
-                console.error("Детальна помилка:", err);
-                searchResults.innerHTML = `<div style="color:red">Помилка: ${err.message}. Перевірте консоль (F12).</div>`;
+                    // 3. Додаємо функцію збереження
+                    card.querySelector('.save-btn').onclick = () => {
+                        saveProduct({ title: item.name, article: item.oem });
+                    };
+                });
             }
+        } catch (err) {
+            console.error(err);
+            searchResults.innerHTML = '<div style="color:red">Помилка завантаження. Спробуйте ще раз через хвилину.</div>';
         }
     }
 });
 
-function renderCards(items, container) {
-    container.innerHTML = '';
-    items.forEach(p => {
-        const card = document.createElement('div');
-        card.className = 'card';
-        card.innerHTML = `
-            <div class="prod-meta">
-                <h4>${p.title}</h4>
-                <small>OEM: ${p.article}</small>
-                <div class="price">${p.price}</div>
-                <button class="save-btn">💖 Зберегти</button>
-            </div>
-        `;
-        container.appendChild(card);
-    });
+// ================= ДОДАТКОВІ ФУНКЦІЇ (ЗБЕРЕЖЕННЯ) =================
+const orderBtn = document.getElementById('order-btn');
+const orderLinks = document.getElementById('order-links');
+orderBtn.onclick = () => orderLinks.classList.toggle('hidden');
+
+let savedItems = JSON.parse(localStorage.getItem('saved_items') || '[]');
+
+function saveProduct(p) {
+    if (!savedItems.find(x => x.article === p.article)) {
+        savedItems.push(p);
+        localStorage.setItem('saved_items', JSON.stringify(savedItems));
+        alert('Збережено!');
+    }
 }
