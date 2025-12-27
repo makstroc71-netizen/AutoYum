@@ -24,22 +24,47 @@ searchInput.addEventListener('keypress', async (e) => {
     if (e.key === 'Enter') {
         const query = searchInput.value.trim();
         if (query) {
-            searchResults.innerHTML = '<div>Пошук у каталозі...</div>';
+            searchResults.innerHTML = '<div class="loading">Шукаємо деталі та актуальні ціни... зачекайте...</div>';
+            console.log("Початок пошуку для:", query);
+
             try {
-                // ВАЖЛИВО: Використовуємо відносний шлях /catalog
+                // Викликаємо наш API на Render
                 const res = await fetch(`/catalog?catalog=MB202303&ssd=$*&groupIds=1`);
+                
+                if (!res.ok) {
+                    throw new Error(`Сервер повернув помилку: ${res.status}`);
+                }
+
                 const data = await res.json();
+                console.log("Дані отримано:", data);
                 
                 let flatList = [];
-                Object.keys(data).forEach(g => {
-                    data[g].forEach(item => {
-                        const price = item.offers.length > 0 ? `${item.offers[0].price} грн` : "Під замовлення";
-                        flatList.push({ title: item.name, article: item.oem, price, brand: "Оригінал" });
+                // Проходимо по групах (Group_1, і т.д.)
+                for (const groupKey in data) {
+                    data[groupKey].forEach(item => {
+                        // Перевіряємо, чи є оффери
+                        const hasOffers = item.offers && item.offers.length > 0;
+                        const price = hasOffers ? `${item.offers[0].price} грн` : "Під замовлення";
+                        const seller = hasOffers ? item.offers[0].seller : "AutoYuM";
+
+                        flatList.push({ 
+                            title: item.name || "Запчастина", 
+                            article: item.oem, 
+                            price: price, 
+                            brand: seller 
+                        });
                     });
-                });
-                renderCards(flatList, searchResults);
+                }
+
+                if (flatList.length === 0) {
+                    searchResults.innerHTML = '<div>Запчастин не знайдено, спробуйте пізніше</div>';
+                } else {
+                    renderCards(flatList, searchResults);
+                }
+
             } catch (err) {
-                searchResults.innerHTML = '<div>Помилка завантаження даних</div>';
+                console.error("Детальна помилка:", err);
+                searchResults.innerHTML = `<div style="color:red">Помилка: ${err.message}. Перевірте консоль (F12).</div>`;
             }
         }
     }
